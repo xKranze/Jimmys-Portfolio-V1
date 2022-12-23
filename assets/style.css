@@ -1,0 +1,78 @@
+/* look up border box */
+
+* {
+  box-sizing:border-box;
+}
+/* adding margin 0 makes the html doc to have no white spaces showing around in brwoser add this in reeset file*/
+body {
+  margin: 0;
+}
+
+/* justify-content using space between pushes the 2 divs away using all the space inbetween */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(69, 42, 95);
+  color: rgb(69, 42, 95);
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+
+}
+
+/* padding the fisrt number of px targets space up/down sedond digit target sleft/right sides. used .nav a totarget a tags in the parent nav.  Trick:you can use color "inhert" and trhis will cause the child to inhert same color as the parent in .nav*/
+.nav a {
+  padding: 12px 20px;
+  color:white
+
+  
+}
+
+/* .name {
+  padding-left: 30px;
+  border-style:white
+} */
+
+.navbar h1 {
+  padding-left: 70px;
+  border:rgb(81, 47, 121) 5px solid;
+  font-size: 40px;
+  background-color:lightgray;
+  border-top-right-radius: 15px;
+  margin-bottom: 0;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+justify-content:space-between;
+gap: 10px;
+}
+/* flex grow to make the groups grow */
+/* padding to spread apart */
+.portfolio-grid-item {
+  flex-grow:0;
+  background: red;
+  width: calc(50% - 5px);
+  padding: 15px;
+  
+}
+/* to make this item bigger then rest */
+.hero-item {
+  width: 100%;
+}
+
+/* example of using :root (place on top of css list)to give a varible of our choosing name to change color lesson in advance css day 3 25*/
+:root{
+  --dark: #13293d;
+  --light: #fff;
+  --navlink-color: #b9c6ae;
+/* --padding:10px */
+}
+
+
+nav a:hover {
+  color:greenyellow;
+}
