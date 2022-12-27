@@ -14,7 +14,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(45deg, rgb(59, 16, 59), purple);
+  background: linear-gradient(45deg, rgb(59, 16, 59), rgb(94, 19, 94));
   color: rgb(69, 42, 95);
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 /* padding the fisrt number of px targets space up/down sedond digit target sleft/right sides. used .nav a totarget a tags in the parent nav.  Trick:you can use color "inhert" and trhis will cause the child to inhert same color as the parent in .nav*/
-.nav a {
+.nav a{
   padding: 12px 20px;
   color: white
 }
@@ -45,6 +45,7 @@ body {
   justify-content: space-between;
   gap: 10px;
   padding:0px 20px;
+  
   
   /* margin-top: 500px; */
 }
@@ -77,13 +78,15 @@ body {
 
 /* testing from hunt profile */
 .sidebar {
-  background-color: white;
+  background-color:cadetblue;
   float: left;
   width: 300px;
   text-align: center;
   box-shadow: 0 20px 20px rgb(87, 15, 109);
   height: 100vh;
-  
+  /* background: repeat-y; */
+  /* padding-bottom to extend background down to pageeven when scrolling */
+  padding-bottom: 1400px; 
   /* grid-auto-columns: auto; */
 
 }
@@ -111,10 +114,16 @@ color:white;
   margin-top: 25px;
 }
 
+.img-text{
+    position:static;
+    bottom: 20px;
+    left: 10px;
+}
+
 /* testing from hunt project */
 .hero  {
   width: 100%;
-  
+
   /* width: 70em;
   overflow: hidden;
   background-size: 50px;
@@ -125,12 +134,40 @@ color:white;
 
 }
 
-nav a:hover {
-  color: greenyellow;
+nav a:hover,.sidebar a:hover {
+  color: rgb(70, 219, 50);
+  transition:1s;
+}
+
+
+#contactme {
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  /* clear: both; */
+}
+
+#formContainer {
+  width: 60%;
+  /* margin: 0 auto;  */
+  background: linear-gradient(45deg, rgb(168, 116, 168), rgb(94, 19, 94));
+  border-radius: 30px;
+  margin-bottom: 100px;
+  margin:auto;
+  
+}
+
+.contactHead {
+  text-align: center
+}
+#contactform{
+  text-align: center;
+  margin:0 auto;
+
 }
 
 @media screen and (max-width: 768px) {
-  header, main,.navbar {
+  header, main,.navbar, .contactform{
     flex-direction: column;
   }
 }
