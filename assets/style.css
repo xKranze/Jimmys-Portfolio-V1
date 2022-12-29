@@ -32,7 +32,7 @@ body {
 
 .navbar h1 {
   padding-left: 70px;
-  border: rgb(81, 47, 121) 5px solid;
+  border: rgb(47, 43, 61) 5px solid;
   font-size: 40px;
   background-color: lightgray;
   border-top-right-radius: 15px;
@@ -48,11 +48,14 @@ body {
    /* margin-top: 500px; */
 }
 
+p{
+  color: white;
+}
 /* flex grow to make the groups grow */
 /* padding to spread apart */
 .portfolio-grid-item {
   flex-grow: 0;
-  background: rgb(89, 38, 156);
+  background: rgb(46, 81, 104);
   width: calc(50% - 5px);
   padding: 15px;
   height: 300px;
@@ -74,7 +77,7 @@ body {
 
 /* testing from hunt profile */
 .sidebar {
-  background-color:rgb(61, 105, 105);
+  background-color:rgb(46, 81, 104);
   float: left;
   width: 300px;
   text-align: center;
@@ -92,7 +95,8 @@ color:white;
   padding-bottom: 14px;
   font-size: 18px;
   padding: 14px 25px;
-  background: linear-gradient(45deg, rgb(34, 26, 43), rgb(91, 70, 99));
+  background: linear-gradient(45deg, rgb(23, 15, 46), rgb(91, 70, 99));
+  border-radius: 10px;
 }
 
 .sidebar img {
@@ -115,6 +119,7 @@ h3, h2 {
 /* testing from hunt project */
 .hero  {
   width: 100%;
+  padding-bottom: 30px;
   /* width: 70em;
   overflow: hidden;
   background-size: 50px;
@@ -132,7 +137,7 @@ nav a:hover,.sidebar a:hover {
 #formContainer {
   width: 60%;
   /* margin: 0 auto;  */
-  background: linear-gradient(45deg, rgb(30, 12, 110), rgb(78, 85, 97));
+  background: linear-gradient(45deg, rgb(55, 105, 124), rgb(52, 32, 71));
   border-radius: 30px;
   margin:auto;
 }
