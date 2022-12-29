@@ -1,5 +1,4 @@
 /* look up border box */
-
 * {
   box-sizing: border-box;
 }
@@ -14,7 +13,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(45deg, rgb(59, 16, 59), rgb(94, 19, 94));
+  background: linear-gradient(45deg, rgb(47, 43, 61), rgb(38, 32, 88));
   color: rgb(69, 42, 95);
 }
 
@@ -27,7 +26,8 @@ body {
 /* padding the fisrt number of px targets space up/down sedond digit target sleft/right sides. used .nav a totarget a tags in the parent nav.  Trick:you can use color "inhert" and trhis will cause the child to inhert same color as the parent in .nav*/
 .nav a{
   padding: 12px 20px;
-  color: white
+  color: white;
+  font-size: large;
 }
 
 .navbar h1 {
@@ -45,9 +45,7 @@ body {
   justify-content: space-between;
   gap: 10px;
   padding:0px 20px;
-  
-  
-  /* margin-top: 500px; */
+   /* margin-top: 500px; */
 }
 
 /* flex grow to make the groups grow */
@@ -59,7 +57,6 @@ body {
   padding: 15px;
   height: 300px;
   border-radius: 30px;
-
 }
 
 /* to make this item bigger then rest */
@@ -75,20 +72,17 @@ body {
   /* --padding:10px */
 }
 
-
 /* testing from hunt profile */
 .sidebar {
-  background-color:cadetblue;
+  background-color:rgb(61, 105, 105);
   float: left;
   width: 300px;
   text-align: center;
-  box-shadow: 0 20px 20px rgb(87, 15, 109);
-  height: 100vh;
+  box-shadow: 0 20px 20px rgb(54, 154, 172);
+  height: 1500px;
   /* background: repeat-y; */
   /* padding-bottom to extend background down to pageeven when scrolling */
-  padding-bottom: 1400px; 
   /* grid-auto-columns: auto; */
-
 }
 
 .sidebar a {
@@ -98,32 +92,29 @@ color:white;
   padding-bottom: 14px;
   font-size: 18px;
   padding: 14px 25px;
-  background: linear-gradient(45deg, rgb(51, 38, 63), rgb(169, 35, 223));
-  
+  background: linear-gradient(45deg, rgb(34, 26, 43), rgb(91, 70, 99));
 }
 
 .sidebar img {
   border-radius: 50%;
-
   width: 270px;
   /* padding: 25px 25px; */
-  border: 10px solid rgb(77, 31, 138);
+  border: 10px solid rgb(25, 7, 48);
   /* margin: 25px 25px; */
   box-shadow: 0 5px 10px black;
   margin-bottom: 50px;
   margin-top: 25px;
 }
-
-.img-text{
-    position:static;
-    bottom: 20px;
-    left: 10px;
+h3, h2 {
+  color:white;
+  position:static;
+  bottom: 20px;
+  left: 10px;
 }
 
 /* testing from hunt project */
 .hero  {
   width: 100%;
-
   /* width: 70em;
   overflow: hidden;
   background-size: 50px;
@@ -131,43 +122,31 @@ color:white;
   left: 30%;
   top: 30%;
   width: 50%; */
-
 }
 
 nav a:hover,.sidebar a:hover {
-  color: rgb(70, 219, 50);
+  color: rgb(70, 224, 10);
   transition:1s;
-}
-
-
-#contactme {
-  margin: 0 auto;
-  position: relative;
-  z-index: 1;
-  /* clear: both; */
 }
 
 #formContainer {
   width: 60%;
   /* margin: 0 auto;  */
-  background: linear-gradient(45deg, rgb(168, 116, 168), rgb(94, 19, 94));
+  background: linear-gradient(45deg, rgb(30, 12, 110), rgb(78, 85, 97));
   border-radius: 30px;
-  margin-bottom: 100px;
   margin:auto;
-  
 }
 
-.contactHead {
-  text-align: center
-}
-#contactform{
+.contactHead, form {
   text-align: center;
-  margin:0 auto;
-
 }
 
 @media screen and (max-width: 768px) {
-  header, main,.navbar, .contactform{
+  header, main, .navbar, .contactform, aside{
     flex-direction: column;
+    flex-wrap: wrap;
+    display:block;
+    float:none;
+    width:100%;
   }
 }
