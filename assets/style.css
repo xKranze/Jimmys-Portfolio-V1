@@ -50,6 +50,7 @@ body {
 
 p{
   color: white;
+  font-size: 20px;
 }
 /* flex grow to make the groups grow */
 /* padding to spread apart */
@@ -83,6 +84,7 @@ p{
   text-align: center;
   box-shadow: 0 20px 20px rgb(54, 154, 172);
   height: 1500px;
+  margin:10px;
   /* background: repeat-y; */
   /* padding-bottom to extend background down to pageeven when scrolling */
   /* grid-auto-columns: auto; */
@@ -144,6 +146,19 @@ nav a:hover,.sidebar a:hover {
 
 .contactHead, form {
   text-align: center;
+}
+
+.work{
+  border: 10px solid rgb(25, 7, 48);
+  width: 250px;
+  float: left;
+  padding: 25px 25px;
+  padding-left: 70px;
+  border: rgb(47, 43, 61) 5px solid;
+  font-size: 40px;
+  background-color: lightgray;
+  border-top-right-radius: 15px;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
