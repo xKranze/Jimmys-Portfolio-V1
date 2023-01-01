@@ -17,7 +17,6 @@ body {
 .nav {
   display: flex;
   list-style: none;
-
 }
 
 .nav a {
@@ -60,8 +59,6 @@ p a {
 
 .hero-item {
   width: 100%;
-  
-
 }
 
 :root {
@@ -100,13 +97,13 @@ p a {
   margin-top: 25px;
 }
 
-h3,h2 {
+h3,
+h2 {
   color: white;
   position: static;
-  
+
   left: 10px;
 }
-
 
 .hero {
   width: 100%;
@@ -131,7 +128,6 @@ form {
   text-align: center;
 }
 
-
 .work {
   display: flex;
   height: 240px;
@@ -154,14 +150,12 @@ form {
   border-top-left-radius: 15px;
 }
 
-
 .slide-item a {
   display: block;
   height: 100%;
 }
 
 @media screen and (max-width: 768px) {
-
   header,
   main,
   .navbar,
