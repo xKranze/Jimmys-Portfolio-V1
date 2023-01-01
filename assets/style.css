@@ -1,15 +1,12 @@
-/* look up border box */
 * {
   box-sizing: border-box;
 }
 
-/* adding margin 0 makes the html doc to have no white spaces showing around in brwoser add this in reeset file*/
 body {
   margin: 0;
   background: url(./wallpapersden.com_programming-coding-language_3840x2160.jpg)
 }
 
-/* justify-content using space between pushes the 2 divs away using all the space inbetween */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -23,8 +20,7 @@ body {
 
 }
 
-/* padding the fisrt number of px targets space up/down sedond digit target sleft/right sides. used .nav a totarget a tags in the parent nav.  Trick:you can use color "inhert" and trhis will cause the child to inhert same color as the parent in .nav*/
-.nav a{
+.nav a {
   padding: 12px 20px;
   color: white;
   font-size: large;
@@ -32,6 +28,7 @@ body {
 
 .navbar h1 {
   padding-left: 70px;
+  padding-right: 10px;
   border: rgb(47, 43, 61) 5px solid;
   font-size: 40px;
   background-color: lightgray;
@@ -44,54 +41,47 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 10px;
-  padding:0px 20px;
-   /* margin-top: 500px; */
+  padding: 0px 20px;
 }
 
-p{
+p a {
   color: white;
   font-size: 20px;
 }
-/* flex grow to make the groups grow */
-/* padding to spread apart */
+
 .portfolio-grid-item {
   flex-grow: 0;
   background: rgb(46, 81, 104);
   width: calc(50% - 5px);
   padding: 15px;
-  height: 300px;
+  height: 350px;
   border-radius: 30px;
 }
 
-/* to make this item bigger then rest */
 .hero-item {
   width: 100%;
+  
+
 }
 
-/* example of using :root (place on top of css list)to give a varible of our choosing name to change color lesson in advance css day 3 25*/
 :root {
   --dark: #13293d;
   --light: #fff;
   --navlink-color: #b9c6ae;
-  /* --padding:10px */
 }
 
-/* testing from hunt profile */
 .sidebar {
-  background-color:rgb(46, 81, 104);
+  background-color: rgb(46, 81, 104);
   float: left;
-  width: 300px;
+  width: 305px;
   text-align: center;
-  box-shadow: 0 20px 20px rgb(54, 154, 172);
+  box-shadow: 0 10px 20px rgb(54, 154, 172);
   height: 1500px;
-  margin:10px;
-  /* background: repeat-y; */
-  /* padding-bottom to extend background down to pageeven when scrolling */
-  /* grid-auto-columns: auto; */
+  margin: 5px;
 }
 
 .sidebar a {
-color:white;
+  color: white;
   display: block;
   text-decoration: none;
   padding-bottom: 14px;
@@ -104,69 +94,83 @@ color:white;
 .sidebar img {
   border-radius: 50%;
   width: 270px;
-  /* padding: 25px 25px; */
   border: 10px solid rgb(25, 7, 48);
-  /* margin: 25px 25px; */
   box-shadow: 0 5px 10px black;
   margin-bottom: 50px;
   margin-top: 25px;
 }
-h3, h2 {
-  color:white;
-  position:static;
-  bottom: 20px;
+
+h3,h2 {
+  color: white;
+  position: static;
+  
   left: 10px;
 }
 
-/* testing from hunt project */
-.hero  {
+
+.hero {
   width: 100%;
   padding-bottom: 30px;
-  /* width: 70em;
-  overflow: hidden;
-  background-size: 50px;
-  position: relative;
-  left: 30%;
-  top: 30%;
-  width: 50%; */
 }
 
-nav a:hover,.sidebar a:hover {
+nav a:hover,
+.sidebar a:hover {
   color: rgb(70, 224, 10);
-  transition:1s;
+  transition: 1s;
 }
 
 #formContainer {
   width: 60%;
-  /* margin: 0 auto;  */
   background: linear-gradient(45deg, rgb(55, 105, 124), rgb(52, 32, 71));
   border-radius: 30px;
-  margin:auto;
+  margin: auto;
 }
 
-.contactHead, form {
+.contactHead,
+form {
   text-align: center;
 }
 
-.work{
-  border: 10px solid rgb(25, 7, 48);
-  width: 250px;
-  float: left;
-  padding: 25px 25px;
-  padding-left: 70px;
+
+.work {
+  display: flex;
+  height: 240px;
   border: rgb(47, 43, 61) 5px solid;
   font-size: 40px;
-  background-color: lightgray;
-  border-top-right-radius: 15px;
-  margin-bottom: 0;
+  background: url(./techh.jpg);
+  opacity: 0.5;
+  background-size: 375px 300px;
+  border-radius: 15px;
+  margin: 0px;
+}
+
+.headings {
+  color: white;
+  padding-left: 70px;
+  padding-right: 25px;
+  border: rgb(69, 64, 85)5px solid;
+  display: inline-block;
+  background-color: rgb(47, 43, 61);
+  border-top-left-radius: 15px;
+}
+
+
+.slide-item a {
+  display: block;
+  height: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  header, main, .navbar, .contactform, aside{
+
+  header,
+  main,
+  .navbar,
+  .contactform,
+  aside {
     flex-direction: column;
     flex-wrap: wrap;
-    display:block;
-    float:none;
-    width:100%;
+    display: block;
+    float: none;
+    width: 100%;
   }
 }
