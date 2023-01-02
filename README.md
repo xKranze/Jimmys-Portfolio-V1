@@ -14,6 +14,7 @@ I have yet to creat a Linkedin profile and working on that.
 N/A
 
 ## Usage
+https://xkranze.github.io/Jimmys-Portable-Portfolio/
  ![alt tag](./assets/jimmysportfolio.jpg)
 
 
