@@ -128,18 +128,65 @@ form {
   text-align: center;
 }
 
-.work {
+.work1 {
   display: flex;
   height: 240px;
   border: rgb(47, 43, 61) 5px solid;
   font-size: 40px;
-  background: url(./techh.jpg);
-  opacity: 0.5;
-  background-size: 375px 300px;
+  background: url(./send\ news\ long.jpg);
+  padding: 10px;
+  background-size: 100%;
   border-radius: 15px;
   margin: 0px;
 }
 
+.work1 {
+  display: flex;
+  height: 240px;
+  border: rgb(47, 43, 61) 5px solid;
+  font-size: 40px;
+  background: url(./send\ news\ long.jpg);
+  padding: 10px;
+  background-size: 100%;
+  border-radius: 15px;
+  margin: 0px;
+}
+
+.work1 {
+  display: flex;
+  height: 240px;
+  border: rgb(47, 43, 61) 5px solid;
+  font-size: 40px;
+  background: url(./send\ news\ long.jpg);
+  padding: 10px;
+  background-size: 100%;
+  border-radius: 15px;
+  margin: 0px;
+}
+
+.work1 {
+  display: flex;
+  height: 240px;
+  border: rgb(47, 43, 61) 5px solid;
+  font-size: 40px;
+  background: url(./send\ news\ long.jpg);
+  padding: 10px;
+  background-size: 100%;
+  border-radius: 15px;
+  margin: 0px;
+}
+
+.work1 {
+  display: flex;
+  height: 240px;
+  border: rgb(47, 43, 61) 5px solid;
+  font-size: 40px;
+  background: url(./send\ news\ long.jpg);
+  padding: 10px;
+  background-size: 100%;
+  border-radius: 15px;
+  margin: 0px;
+}
 .headings {
   color: white;
   padding-left: 70px;
