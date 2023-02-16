@@ -111,7 +111,7 @@ h2 {
 }
 
 nav a:hover,
-.sidebar a:hover {
+.sidebar a:hover, p a:hover {
   color: rgb(70, 224, 10);
   transition: 1s;
 }
