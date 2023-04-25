@@ -12,7 +12,8 @@ My motivation for this project was to have a professional portfolio for myself a
 N/A
 
 ## Usage
-https://xkranze.github.io/Jimmys-Portable-Portfolio/
+Deployed Portfolio link:
+https://xkranze.github.io/Jimmys-Portfolio-V1/
  ![alt tag](./assets/portfoliooooo.jpg)
 
 
