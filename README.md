@@ -15,7 +15,7 @@ N/A
 
 ## Usage
 https://xkranze.github.io/Jimmys-Portable-Portfolio/
- ![alt tag](./assets/jimmysportfolio.jpg)
+ ![alt tag](./assets/portfoliooooo.jpg)
 
 
 ## Credits
