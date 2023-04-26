@@ -13,7 +13,9 @@ N/A
 
 ## Usage
 Deployed Portfolio link:
-https://xkranze.github.io/Jimmys-Portfolio-V1/
+
+<a href="https://xkranze.github.io/Jimmys-Portfolio-V1/">Jimmy's Portfolio</a>
+
  ![alt tag](./assets/portfoliooooo.jpg)
 
 
