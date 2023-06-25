@@ -2,7 +2,7 @@
 
 ## Description
 
-My motivation for this project was to have a professional portfolio for myself and showcase my future work.  Building this project from scratch was not easy and had but help me gain more exposure to HTML and CSS.  This was an intimidating task and i hope to overcome this feeling as I continue to build other projects outside of class.  
+My motivation for this project was to have a professional portfolio for myself and showcase my future work.  Building this project from scratch was not easy and had but help me gain more exposure to HTML and CSS. 
 
 
 
